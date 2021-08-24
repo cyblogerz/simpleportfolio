@@ -1,0 +1,278 @@
+.top-container{
+    background-color: #e0ebe8;
+    padding-top: 50px;
+    height: 600px;
+    text-align: center;
+    
+}
+body{
+    margin: 0;
+    
+    
+    
+   
+}
+#mhead{
+    margin :0;
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px;
+    color: #2cac8e;
+}
+
+.bottom-cloud{
+    position:absolute;
+    left: 300px;
+    bottom:350px;
+}
+/* .mountain{
+ 
+
+} */
+
+.top-cloud{
+    position:relative;
+    left:400px;
+    top:50px;
+}
+.cont2{
+    text-align: center;
+    height:450px;
+    width: 100%;
+    padding-top: 20px;
+    background-color: white;
+}
+
+#msub{
+    font-family: 'Share Tech Mono', monospace;
+    font-size:20px ;
+    color: #2cac8e;
+    margin:0px auto 90px auto;
+}
+header{
+    width:100%;
+    height: 100px;
+    background-color: #e0ebe8;
+}
+.head-elements{
+    color: #2cac8e;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+}
+#head-elements{
+    word-spacing: 10px;
+    position: absolute;
+    margin-right:20px;
+    right:0px;
+    top:40px;
+
+}
+.main{
+    margin-bottom:50px;
+}
+#profile{
+    height: 100px;
+    width:100px;
+    background-image: url('/images/prf.png');
+    position: relative;
+    background-size: cover;
+    top:0px;
+    left:20px;
+}
+
+.me{
+    height: 150px;
+    width:150px;
+}
+
+.hmain{
+    color:#2cac8e;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    margin:50px auto 0 auto;
+}
+.sub{
+    font-family: 'STIX Two Text', serif;
+    font-size: 20px;
+    color: rgb(133, 133, 133);
+    line-height: 2;
+    
+}
+
+hr{
+    margin-top: 60px;
+    
+    
+    border-style: dotted;
+    border-color: #b6b6b6;
+    border-width : 6px;
+    border-bottom-style: none;
+    height: 0px;
+    width: 5%;
+
+  }
+
+.mountain{
+    position: relative;
+    
+}
+
+.special{
+    position:relative;
+    text-align:center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:3.8em;
+    font-weight:400;
+    top:20px;
+    bottom:20px;
+    color:#1e836c
+}
+
+.acontainer{
+    /* background-color: red; */
+    margin: 0 auto;/*centers the div tag*/
+    display:grid;
+    width:80%;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows:minmax(150px,auto);
+    column-gap: 10px;
+    row-gap:100px;
+}
+.item{
+    background-color: white;
+}
+#item1{
+    text-align: center;
+    padding-top:10px;
+    
+    
+    
+}
+.dot{
+    height:150px;
+    width:150px;
+    display:inline-block;
+    background-size: cover;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+.dir{
+    display: inline-block;
+    position:relative;
+    bottom:60px;
+}
+.dot2{
+    position:relative;
+    bottom:35px;
+    height:75px;
+    width:75px;
+    border-radius: 50%;
+    background-size: cover;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
+#dot{
+    background-image: url('/images/des.gif');
+
+}
+#dot2{
+    background-image: url('/images/pen.gif');
+
+}
+#dot3{
+    background-image: url('/images/dev3.gif');
+    border-width:10px;
+
+}
+#dot4{
+    background-image: url('/images/dev.gif');
+
+}
+#developsec{
+    position: relative;
+    left:150px;
+}
+#developsub{
+    position:relative;
+    left:150px;
+}
+
+#graphics{
+    position:relative;
+    top:10px; 
+    text-align:center;
+    
+}
+
+#end{
+    /* position:absolute;
+    left: 150px; */
+    margin: 0 auto;
+    text-align:center;
+    width:50%;
+}
+
+.button{
+    position:relative;
+    top:20px;
+    border:solid;
+    border-color: black;
+    color: black;
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+    font-size: 25px;
+    font-family: 'Amatic SC', cursive;
+    background-color: #2cac8e;
+    /* color: #1e836c;
+     */
+    
+
+}
+#endh{
+    top:20px;
+}
+
+footer{
+    word-spacing: 10px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top:100px;
+    width:100%;
+    height:100px;
+    background-color: #c5ded7;
+    
+}
+
+.footer-elements{
+    color:#2cac8e;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 18px;
+    word-spacing: 10px;
+
+}
+#msub{
+    font-size:2rem;
+    font-weight:normal;
+}
+a{
+    text-decoration: none;
+}
+.head-elements:hover{
+    color: black;
+}
+
+
+
+.footer-elements:hover{
+    color:black;
+}
+
+.button:hover{
+ background-color: #1e836c;   
+}
+
+@media screen and(max-) {
+    
+}
